@@ -63,7 +63,7 @@ begin
    
    ------------------------------------------------------------------------------------------------------------
    -- Vid reset släcks lysdioden. Annars togglas lysdioden när den långsamma klockan slår, förutsatt att
-  -- lysdiodens enable-signal switch[2], ansluten via signalen led_s.enabled, är ettställd. Ifall
+   -- lysdiodens enable-signal switch[2], ansluten via signalen led_s.enabled, är ettställd. Ifall
    -- enable-signalen är låg så hålls lysdioden låg.
    ------------------------------------------------------------------------------------------------------------
    process (clock, reset_n) is
